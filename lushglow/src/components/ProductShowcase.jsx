@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import './ProductShowcase.css';
 
 const products = [
@@ -66,8 +66,17 @@ const products = [
 ];
 
 export default function ProductShowcase() {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
+  const y = useTransform(scrollYProgress, [0, 1], [0, 100]);
+
   return (
-    <section className="product-showcase" id="products">
+    <section className="product-showcase" id="products" ref={ref}>
+      <motion.div
+        className="product-parallax-bg"
+        style={{ y }}
+        aria-hidden="true"
+      />
       <h2 className="product-title">Featured Products</h2>
       <div className="product-grid">
         {products.map((product, idx) => (

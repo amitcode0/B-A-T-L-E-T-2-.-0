@@ -16,6 +16,9 @@ export default function Footer() {
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <svg width="24" height="24" fill="none" stroke="var(--color-gold)" strokeWidth="2" viewBox="0 0 24 24"><path d="M18 2h-3a4 4 0 0 0-4 4v3H7v4h4v8h4v-8h3l1-4h-4V6a1 1 0 0 1 1-1h3z"/></svg>
           </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="https://api.iconify.design/mdi:linkedin.svg?color=%23e6cfa7" alt="LinkedIn" style={{ width: 22, height: 22, verticalAlign: 'middle' }} />
+          </a>
         </div>
       </div>
     </footer>
