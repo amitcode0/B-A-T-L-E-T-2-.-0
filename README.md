@@ -1,16 +1,16 @@
-# 💄 LushGlow – Beauty Product Website
+#  LushGlow – Beauty Product Website
 
 **LushGlow** is a modern, fully responsive beauty product web application built with **React.js** and **CSS**, designed to showcase luxurious skincare and cosmetic products with elegance and advanced animation. The site blends smooth user experience with a visually rich design inspired by real-world beauty brands.
 
 ---
 
-## 🌟 Website Overview
+##  Website Overview
 
 LushGlow presents a fictional brand that sells premium beauty products. The web experience is crafted with attention to visual harmony, soft color combinations (pinks, whites, golds), and fluid scroll-based animations. The goal is to create a refined aesthetic that highlights the elegance and quality of each product.
 
 ---
 
-## 🧩 Features Implemented
+## Features Implemented
 
 1. **Hero Section**  
    Fullscreen banner with animated heading, subheading, and background video.
@@ -71,7 +71,7 @@ LushGlow presents a fictional brand that sells premium beauty products. The web 
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/lushglow.git
+https://github.com/amitcode0/B-A-T-L-E-T-2-.-0.git
 cd lushglow
 
 # 2. Install dependencies
