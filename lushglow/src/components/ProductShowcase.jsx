@@ -6,62 +6,62 @@ const products = [
   {
     name: 'Lipstick Set',
     price: '$29',
-    img: '/uploads/3e2e2e2e-3e2e-3e2e-3e2e-3e2e2e2e2e2e-3.jpg',
+    img: '/uploads/Lipstick Set.jpeg',
   },
   {
     name: 'Eye Shadow Palette',
     price: '$32',
-    img: '/uploads/3e2e2e2e-3e2e-3e2e-3e2e-3e2e2e2e2e2e-4.jpg',
+    img: '/uploads/Eye Shadow .jpeg',
   },
   {
     name: 'Foundation Bottles',
     price: '$40',
-    img: '/uploads/3e2e2e2e-3e2e-3e2e-3e2e-3e2e2e2e2e2e-2.jpg',
+    img: '/uploads/Foundation Bottles.jpeg',
   },
   {
     name: 'Makeup Brush Kit',
     price: '$24',
-    img: '/uploads/3e2e2e2e-3e2e-3e2e-3e2e-3e2e2e2e2e2e-1.jpg',
+    img: '/uploads/Makeup Brush Kit.jpeg',
   },
   {
     name: 'Shampoo & Conditioner Set',
     price: '$28',
-    img: 'https://images.unsplash.com/photo-1615996001375-0775fdbfae6c?auto=format&fit=crop&w=400&q=80',
+    img: '/uploads/Shampoo & Conditioner Set.jpeg',
   },
   {
     name: 'Hair Oil Dropper',
     price: '$19',
-    img: 'https://images.unsplash.com/photo-1621560591999-2930fa152749?auto=format&fit=crop&w=400&q=80',
+    img: '/uploads/Hair Oil Dropper.jpeg',
   },
   {
     name: 'Natural Hair Products',
     price: '$33',
-    img: 'https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=400&q=80',
+    img: '/uploads/Natural Hair Products.jpeg',
   },
   {
     name: 'Hair Serum & Comb',
     price: '$21',
-    img: 'https://images.unsplash.com/photo-1621560591967-937a0ed2232f?auto=format&fit=crop&w=400&q=80',
+    img: '/uploads/Hair Serum & Comb.jpeg',
   },
   {
     name: 'Eco-friendly Skincare',
     price: '$37',
-    img: 'https://images.unsplash.com/photo-1600180758890-e3b8a19fbb5e?auto=format&fit=crop&w=400&q=80',
+    img: '/uploads/Eco-friendly Skincare.jpeg',
   },
   {
     name: 'Herbal Ingredients',
     price: '$18',
-    img: 'https://images.unsplash.com/photo-1620912189862-7b1f999f725d?auto=format&fit=crop&w=400&q=80',
+    img: '/uploads/Herbal Ingredients.jpeg',
   },
   {
     name: 'Aloe Vera Beauty Setup',
     price: '$23',
-    img: 'https://images.unsplash.com/photo-1611078489935-f5b9a9c3a3c3?auto=format&fit=crop&w=400&q=80',
+    img: '/uploads/Aloe Vera Beauty Setup.jpeg',
   },
   {
     name: 'Essential Oils and Rose Petals',
     price: '—',
-    img: 'https://images.unsplash.com/photo-1593611875971-5bbf93e8217b?auto=format&fit=crop&w=400&q=80',
+    img: '/uploads/Essential Oils and Rose Petals.jpeg',
   },
 ];
 
