@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import ProductShowcase from "./components/ProductShowcase";
 import AboutUs from "./components/AboutUs";
 import Loader from "./components/Loader";
+import ContactSection from "./components/ContactSection";
 // import AboutUs from "./components/AboutUs";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <HeroSection />
       <ProductShowcase />
       <AboutUs />
+      <ContactSection />
       {/* <AboutUs /> */}
       <Footer />
       {/* <h1>LushGlow</h1>
