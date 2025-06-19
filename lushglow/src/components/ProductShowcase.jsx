@@ -56,6 +56,22 @@ export default function ProductShowcase() {
             <div className="product-info">
               <h3>{product.name}</h3>
               <span className="product-price">{product.price}</span>
+              <div className="product-actions">
+                <motion.button
+                  className="product-btn add-to-cart"
+                  whileHover={{ scale: 1.08, boxShadow: '0 0 16px 2px var(--color-accent)' }}
+                  whileTap={{ scale: 0.96 }}
+                >
+                  Add to Cart
+                </motion.button>
+                <motion.button
+                  className="product-btn buy-now"
+                  whileHover={{ scale: 1.08, boxShadow: '0 0 16px 2px var(--color-gold)' }}
+                  whileTap={{ scale: 0.96 }}
+                >
+                  Buy Now
+                </motion.button>
+              </div>
             </div>
           </motion.div>
         ))}
