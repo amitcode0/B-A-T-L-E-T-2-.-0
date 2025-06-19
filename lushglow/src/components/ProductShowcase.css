@@ -45,6 +45,7 @@
 }
 
 .product-img-wrap {
+  position: relative;
   width: 100%;
   aspect-ratio: 1/1;
   background: linear-gradient(120deg, var(--color-primary) 60%, var(--color-accent) 100%);
@@ -53,7 +54,6 @@
   justify-content: center;
   overflow: hidden;
   border-bottom: 1px solid var(--color-accent);
-  position: relative;
 }
 
 .product-img {
@@ -149,6 +149,20 @@
   background: linear-gradient(90deg, var(--color-gold), var(--color-accent));
   color: var(--color-text);
   box-shadow: 0 4px 16px var(--color-gold);
+}
+
+.product-type-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  background: rgba(255,255,255,0.7);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px var(--color-button-glow);
+  padding: 4px;
+  z-index: 2;
+  pointer-events: none;
 }
 
 @media (max-width: 900px) {

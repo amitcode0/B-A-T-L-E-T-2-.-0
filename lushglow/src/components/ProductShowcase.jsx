@@ -4,34 +4,64 @@ import './ProductShowcase.css';
 
 const products = [
   {
-    name: 'Radiant Glow Serum',
-    price: '$48',
-    img: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
-  },
-  {
-    name: 'Silk Touch Moisturizer',
-    price: '$36',
-    img: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80',
-  },
-  {
-    name: 'Luxe Night Cream',
-    price: '$54',
-    img: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
-  },
-  {
-    name: 'Golden Eye Elixir',
+    name: 'Lipstick Set',
     price: '$29',
-    img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80',
+    img: '/uploads/3e2e2e2e-3e2e-3e2e-3e2e-3e2e2e2e2e2e-3.jpg',
   },
   {
-    name: 'Velvet Matte Lipstick',
-    price: '$22',
-    img: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80',
+    name: 'Eye Shadow Palette',
+    price: '$32',
+    img: '/uploads/3e2e2e2e-3e2e-3e2e-3e2e-3e2e2e2e2e2e-4.jpg',
   },
   {
-    name: 'Pearl Infused Cleanser',
-    price: '$31',
-    img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80',
+    name: 'Foundation Bottles',
+    price: '$40',
+    img: '/uploads/3e2e2e2e-3e2e-3e2e-3e2e-3e2e2e2e2e2e-2.jpg',
+  },
+  {
+    name: 'Makeup Brush Kit',
+    price: '$24',
+    img: '/uploads/3e2e2e2e-3e2e-3e2e-3e2e-3e2e2e2e2e2e-1.jpg',
+  },
+  {
+    name: 'Shampoo & Conditioner Set',
+    price: '$28',
+    img: 'https://images.unsplash.com/photo-1615996001375-0775fdbfae6c?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    name: 'Hair Oil Dropper',
+    price: '$19',
+    img: 'https://images.unsplash.com/photo-1621560591999-2930fa152749?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    name: 'Natural Hair Products',
+    price: '$33',
+    img: 'https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    name: 'Hair Serum & Comb',
+    price: '$21',
+    img: 'https://images.unsplash.com/photo-1621560591967-937a0ed2232f?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    name: 'Eco-friendly Skincare',
+    price: '$37',
+    img: 'https://images.unsplash.com/photo-1600180758890-e3b8a19fbb5e?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    name: 'Herbal Ingredients',
+    price: '$18',
+    img: 'https://images.unsplash.com/photo-1620912189862-7b1f999f725d?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    name: 'Aloe Vera Beauty Setup',
+    price: '$23',
+    img: 'https://images.unsplash.com/photo-1611078489935-f5b9a9c3a3c3?auto=format&fit=crop&w=400&q=80',
+  },
+  {
+    name: 'Essential Oils and Rose Petals',
+    price: '—',
+    img: 'https://images.unsplash.com/photo-1593611875971-5bbf93e8217b?auto=format&fit=crop&w=400&q=80',
   },
 ];
 
