@@ -21,7 +21,7 @@ function App() {
   if (loading) return <Loader />;
 
   return (
-    <div className="App">
+    <div className="app-bg-wrapper">
       <DarkModeToggle />
       <Header />
       <HeroSection />

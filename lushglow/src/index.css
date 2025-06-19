@@ -11,4 +11,21 @@ body {
   min-height: 100vh;
   background: var(--color-bg);
   transition: background 0.4s;
+}
+
+.app-bg-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #18181b 0%, #232326 100%);
+  position: relative;
+  z-index: 0;
+}
+
+[data-theme="dark"] .app-bg-wrapper {
+  background: linear-gradient(120deg, #111112 0%, #18181b 60%, #232326 100%);
+}
+
+.App {
+  position: relative;
+  z-index: 2;
 } 

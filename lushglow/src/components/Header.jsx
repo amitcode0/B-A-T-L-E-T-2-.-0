@@ -16,9 +16,6 @@ export default function Header() {
         <a href="#products">Products</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="header-linkedin" aria-label="LinkedIn">
-          <img src="https://api.iconify.design/mdi:linkedin.svg?color=%23e6cfa7" alt="LinkedIn" style={{ width: 22, height: 22, verticalAlign: 'middle' }} />
-        </a>
       </nav>
     </motion.header>
   );

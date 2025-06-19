@@ -15,17 +15,17 @@
 }
 
 [data-theme="dark"] {
-  --color-bg: #2a2323;
-  --color-bg-secondary: #3a2c2a;
-  --color-primary: #4b3a3a;
-  --color-accent: #a58d7f;
-  --color-gold: #e6cfa7;
-  --color-text: #fff6f9;
-  --color-text-secondary: #f8d4e4;
-  --color-button: #a58d7f;
-  --color-button-glow: #4b3a3a;
-  --color-input-bg: #3a2c2a;
-  --color-input-border: #a58d7f;
-  --color-footer-bg: #4b3a3a;
-  --color-footer-text: #f8d4e4;
+  --color-bg: #111112;
+  --color-bg-secondary: #18181b;
+  --color-primary: #232326;
+  --color-accent: #2a2a2d;
+  --color-gold: #ffd700;
+  --color-text: #f8d4e4;
+  --color-text-secondary: #e6cfa7;
+  --color-button: #232326;
+  --color-button-glow: #ffd70044;
+  --color-input-bg: #18181b;
+  --color-input-border: #ffd700;
+  --color-footer-bg: #18181b;
+  --color-footer-text: #ffd700;
 }
